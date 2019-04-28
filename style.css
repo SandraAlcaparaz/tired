@@ -1,0 +1,200 @@
+body {
+	background: url(pic/sandramay.jpg);
+	background-position: center;
+	background-size: 130% 130%;
+	font-family: Century Gothic;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+	text-align: center;
+}
+
+li{
+	border: 5px goldenrod solid;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 60px;
+	padding: 5;
+}
+
+li {
+	padding: 10px;
+	background: black;
+	border: 5px goldenrod solid;
+	color: white;
+	text-align: center;
+	font-family: Century Gothic;
+	border-radius: 90px;
+	list-style: none;
+}
+
+li:hover {
+	background: peru;
+	color: black;
+}
+
+.main{
+	padding: 5px;
+	background: black;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.header {
+	font-family: emoji;
+	font-size: 100px;
+	font-weight: 900;
+	text-align: center;
+	padding: 150px;
+	margin-bottom: 15px;
+}
+
+.showcase {
+	padding: 100px
+	background: burlywood;
+	margin-bottom: 10px;
+	text-align: center;
+	height: 60vh;
+	border:5px goldenrod solid;
+	background-image: url(pic/parallel.jpg);
+	background-repeat: no-repeat;
+	background-size: 105% 112%;
+	background-position: center;
+	border-radius: 80px;
+	margin-bottom: 150px;
+}
+
+.main-article {
+	height: 70vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 10px;
+	height: 90vh;
+}
+
+.article-left {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 5px goldenrod solid;
+	font-family: verdana;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	background: peru;
+	border-radius: 60px;
+	height: 90vh;
+	margin-bottom: 150px;
+}
+
+p{
+	margin: 5px;
+}
+
+.image {
+	background: grey;
+	background-image: url(pic/50s.jpg);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 60px;
+}
+
+.article-right {
+	text-align: center;
+	font-family: century gothic;
+	color: black;
+	font-size: 22px;
+	border: 5px goldenrod solid;
+	background: peru;
+	border-radius: 60px;
+	height: 90vh;
+	margin-bottom: 150px;
+}
+
+.button {
+	text-align: center;
+	color: black;
+	font-size: 14px;
+	font-family: century gothic;
+	background-image: burlywood;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 15px 20px;
+}
+
+.button:hover {
+	background: goldenrod solid;
+}
+
+.article {
+	background-image: url(pic/menu.jpg);
+	Background-position: center;
+	Background-repeat: no repeat;
+	background-size: 100% 100%;
+	border-radius: 60px;
+	height: 80vh;
+	width: 50vw;
+	border: 5px goldenrod solid;
+	margin-bottom: 150px;
+}
+
+.article2 {
+	background-image: url(pic/hehehe.jpg);
+	background-position: center;
+	background-repeat: no repeat;
+	background-size: 100% 100%;
+	border-radius: 60px;
+	height: 80vh;
+	width: 45vw;
+	border: 5px goldenrod solid;
+	margin-bottom: 150px;
+}
+
+.blank {
+	padding: 100px
+	background: burlywood;
+	margin-bottom: 10px;
+	text-align: center;
+	height: 60vh;
+	border:5px goldenrod solid;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 60px;
+	font-family: century gothic;
+	font-size: 23px;
+	background: peru;
+	height: 68vh;
+	margin-bottom: 150px;
+}
+
+.blank2 {
+	background-image: url(pic/car.jpg);
+	background-position: center;
+	background-repeat: no repeat;
+	background-size: 100% 100%;
+	border-radius: 60px;
+	border: 5px goldenrod solid;
+	margin-bottom: 150px;
+}
+
+.footer {
+	padding: 10px;
+	text-align: center;
+	color: black solid;
+}
+	
+
